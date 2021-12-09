@@ -3,6 +3,11 @@
     "name": "gamePlay",
     "slug": "gamePlay",
     "version": "1.0.0",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode":"cover",
+      "backgroundColor":"#1D2452"
+    },
     "assetBundlePatterns": [
       "**/*"
     ]
