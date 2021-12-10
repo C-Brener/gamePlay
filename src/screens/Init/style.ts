@@ -1,17 +1,14 @@
 import styled from "styled-components/native";
+// import { RFValue } from "react-native-responsive-fontsize";
 
 export const Container = styled.View`
     flex:1;
     background-color: ${({theme})=>theme.colors.background};
 `;
-
-export const P = styled.Text`
-    font-size: 15px;
-    font-family: ${({theme})=>theme.fonts.regular};
-    color: ${({theme})=>theme.colors.body}
+export const BackImage = styled.Image`
+    align-items:center;
+    
 `
-export const H1 = styled.Text`
-    font-size: 40px;
-    font-family:${({theme})=>theme.fonts.bold};
-    color: ${({theme})=>theme.colors.heading}
-`;
+export const InfoGame=styled.View``
+export const Welcome=styled.View``
+export const Warning=styled.View``
