@@ -12,7 +12,7 @@ import {
 import Illustration from '../../assets/illustration.png'
 import Discord from '../../assets/discord.png'
 
-export function Init(){
+export function Login(){
     return(
     <Container>
         <BackImage source={Illustration}/>
@@ -21,7 +21,7 @@ export function Init(){
             <Warning>Crie grupos para jogar seus games favoritos com seus amigos</Warning>
             <ButtonBox activeOpacity={0.5}>
                 <ButtonImage source={Discord}/>
-                <ButtonText>Entrar Com Discord</ButtonText>
+                <ButtonText>Entrar com Discord</ButtonText>
             </ButtonBox>
         </InitialScreen>
     </Container>

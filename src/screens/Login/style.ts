@@ -38,10 +38,15 @@ align-items: center;
 justify-content: center;
 border-radius: 10px;
 flex-direction: row;
-margin-top: 30px;
+margin-top: ${RFValue(30)}px;
 background-color: ${({theme})=>theme.colors.primary};
 `
 export const ButtonImage=styled.Image`
+margin-right: ${RFValue(30)}px;
+
 `
 export const ButtonText=styled.Text`
+font-size: ${RFValue(15)}px;
+font-family: ${({theme})=>theme.fonts.medium_button};
+
 `
