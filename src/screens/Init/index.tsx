@@ -19,7 +19,7 @@ export function Init(){
         <InitialScreen>
             <Welcome>Conecte-se e organize suas jogatinas</Welcome>
             <Warning>Crie grupos para jogar seus games favoritos com seus amigos</Warning>
-            <ButtonBox>
+            <ButtonBox activeOpacity={0.5}>
                 <ButtonImage source={Discord}/>
                 <ButtonText>Entrar Com Discord</ButtonText>
             </ButtonBox>
