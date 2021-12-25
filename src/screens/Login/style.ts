@@ -10,16 +10,18 @@ export const Container = styled.View`
 export const InitialScreen = styled.View`
     flex: 1;
     align-items: center;
-    padding: ${RFValue(10)}px ${RFValue(29)}px ;
+    padding: 10px 29px ;
 `
 export const BackImage = styled.Image`
     height: ${RFValue(407)}px;
-    width: ${RFValue(375)}px;   
+    width: 100%;   
+`
+export const InfosLogin = styled.View`
+    margin-top: -40px;
 `
 export const Welcome=styled.Text`
-    margin-top: -30px;
     text-align: center;
-    font-size: ${RFValue(35)}px;
+    font-size: ${RFValue(40)}px;
     font-family: ${({theme})=>theme.fonts.bold};
     color: ${({theme})=>theme.colors.heading};
 `
@@ -32,13 +34,13 @@ export const Warning=styled.Text`
 `
 
 export const ButtonBox=styled.TouchableOpacity`
-width: ${RFValue(274)}px;
+width: 100%;
 height:${RFValue(56)}px;
 align-items: center;
 justify-content: center;
 border-radius: 10px;
 flex-direction: row;
-margin-top: ${RFValue(30)}px;
+margin-top: ${RFValue(35)}px;
 background-color: ${({theme})=>theme.colors.primary};
 `
 export const ButtonImage=styled.Image`

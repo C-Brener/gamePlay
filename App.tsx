@@ -13,6 +13,7 @@ import AppLoading from 'expo-app-loading';
 
 import theme from './src/global/styles/theme';
 import { Login } from './src/screens/Login';
+import Routes from './src/routes/routes';
 
 export default function App() {
   const [fontsLoaded] = useFonts ({
@@ -28,7 +29,7 @@ export default function App() {
   }else{
       return (
        <ThemeProvider theme={theme}>
-        <Login/>
+         <Routes/>
        </ThemeProvider>
       );
   }
